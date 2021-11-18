@@ -102,11 +102,24 @@ body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
-  body#bg-img {
-    background: url(../img/background.jpg);
-   background: rgba(68, 68, 68, 0.9), url(../img/background.jpg);
-    background-attachment: fixed;
-    background-size: cover; } 
+  
+body#bg-img {
+  background: url(../img/background.jpg);
+  background: rgba(68, 68, 68, 0.9), url(../img/background.jpg);
+  background-attachment: fixed;
+  background-size: cover; 
+}
+
+/*Optional overlay to make the text pop*/
+body#bg-img .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: rgba(68, 68, 68, 0.0); }
+
 
 h1,
 h2,
@@ -120,11 +133,6 @@ h3 {
   h1.sm-heading,
   h2.sm-heading,
   h3.sm-heading {
-    /*
-    padding: 5px 10px;
-    background: rgba(73, 73, 73, 0.8);
-    max-width: 200px;*/
-    
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
     background: rgba(73, 73, 73, 0.0);
