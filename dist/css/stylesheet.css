@@ -28,7 +28,7 @@
   visibility: hidden; }
   .menu.show {
     visibility: visible; }
-  .menu-branding, .menu-nav {
+  .menu-Left-Photo, .menu-nav {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -46,13 +46,13 @@
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
-  .menu-branding {
+  .menu-Left-Photo {
     background: #444;
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
-    .menu-branding.show {
+    .menu-Left-Photo.show {
       transform: translate3d(0, 0, 0); }
-    .menu-branding .myPortrait {
+    .menu-Left-Photo .myPortrait {
       width: 250px;
       height: 250px;
       background: url("../img/portrait.jpg");
@@ -261,21 +261,21 @@ main {
       line-height: 1;
       margin-bottom: 1rem; }
   ul.menu-nav,
-  div.menu-branding {
+  div.menu-Left-Photo {
     float: none;
     width: 100%;
     min-height: 0; }
     ul.menu-nav.show,
-    div.menu-branding.show {
+    div.menu-Left-Photo.show {
       transform: translate3d(0, 0, 0); }
   .menu-nav {
     height: 75vh;
     transform: translate3d(-100%, 0, 0);
     font-size: 24px; }
-  .menu-branding {
+  .menu-Left-Photo {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
-    .menu-branding .my-portrait {
+    .menu-Left-Photo .my-portrait {
       background: url("../img/portrait_small.jpg");
       width: 150px;
       height: 150px; }
