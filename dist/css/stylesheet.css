@@ -278,6 +278,11 @@ main#home h1 {
   border-bottom: #eece1a 5px solid; 
 }
 
+/*paragraph layouts*/
+p.min-page-size {
+    min-height: 1000px;
+}
+
 /*projects*/
 .projects {
   display: grid;
