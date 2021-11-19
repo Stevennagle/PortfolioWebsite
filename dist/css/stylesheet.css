@@ -13,10 +13,9 @@
   height: 3px;
   /*width: 38px;
   height: 6px;*/
-  margin: 0 0 10px 0;
-
   margin: 0 0 5px 0;
-  background: #fff;
+  /*background: #fff;*/
+  background: #eece1a; 
   transition: all 0.5s ease-out; 
 }
 
@@ -25,6 +24,7 @@
 }
 
 .menu-btn.close .btn-line:nth-child(1) {
+  background:red;
   transform: rotate(45deg) translate(5px, 5px); 
   /*transform: rotate(45deg) translate(6px, 4px);*/
 }
@@ -34,12 +34,9 @@
 }
 
 .menu-btn.close .btn-line:nth-child(3) {
+  background:red;
   transform: rotate(-45deg) translate(7px, -6px); 
   /*transform: rotate(-45deg) translate(20px, -17px);*/ 
-}
-
-.menu-btn .btn-line:hover {
-  background: #eece1a; 
 }
 
 .menu {
