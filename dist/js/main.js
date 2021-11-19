@@ -2,7 +2,7 @@ const menu = document.querySelector('.menu');
 const menuNav = document.querySelector('.menu-nav');
 const menuButton = document.querySelector('.menu-btn');
 const navItems = document.querySelectorAll('.nav-item');
-const menuLeftPhoto = document.querySelector('.menu-Left-Photo');
+const menuLeftPhoto = document.querySelector('.menu-left-photo');
 
 let showMenu = false;
 menuButton.addEventListener('click', toggleMenu);
