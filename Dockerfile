@@ -1,6 +1,7 @@
 FROM nginx:latest
 WORKDIR /usr/src/app
-COPY /usr/src/app/dist /usr/share/nginx/html
+RUN cd /dist
+COPY . /usr/share/nginx/html
 EXPOSE 5000:80
 #CMD [ “npm”, “start” ] 
 #Then you can hit http://localhost:8080 or http://host-ip:8080 in your browser.
