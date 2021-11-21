@@ -1,6 +1,6 @@
 FROM nginx:latest
 WORKDIR /usr/src/app
-RUN cd /dist
+RUN cd ./dist
 COPY . /usr/share/nginx/html
 EXPOSE 5000:80
 #CMD [ “npm”, “start” ] 
