@@ -1,6 +1,6 @@
 FROM nginx:latest
 WORKDIR /usr/src/app
-RUN npm install -y
+#RUN
 COPY . ./
 EXPOSE 80
 CMD [ “npm”, “start” ] 
