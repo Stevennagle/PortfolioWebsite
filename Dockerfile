@@ -1,6 +1,6 @@
 FROM nginx:latest
 WORKDIR /usr/src/app
-COPY ./nginx.conf /etc/nginx/nginx.conf
+#COPY ./nginx.conf /etc/nginx/nginx.conf
 COPY ./dist/* /usr/share/nginx/html
 #RUN npm install
 EXPOSE 5000:80
