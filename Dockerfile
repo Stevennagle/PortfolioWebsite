@@ -1,5 +1,6 @@
 FROM nginx:latest
 WORKDIR /usr/src/app
+COPY ./nginx.conf /etc/nginx/nginx.conf
 COPY ./dist/* /usr/share/nginx/html
 EXPOSE 5000:80
 #CMD [ “npm”, “start” ] 
