@@ -1,7 +1,7 @@
 FROM nginx:latest
 WORKDIR /usr/share/nginx/html
 #COPY ./nginx.conf /etc/nginx/nginx.conf
-COPY ./dist/* /usr/share/nginx/html
+COPY . /usr/share/nginx/html
 #RUN npm install
 EXPOSE 5000:80
 #CMD [ “npm”, “start” ] 
