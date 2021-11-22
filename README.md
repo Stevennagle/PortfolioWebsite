@@ -2,7 +2,7 @@
 symptoms :
 html runs but css/js doesn't 
 
-determination; most likely #1 -directory hierarchy is broken
+determination; most likely #3
 
 1)html doesn't see/can't access them due to break in location and href
 
