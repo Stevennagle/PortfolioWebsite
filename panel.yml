@@ -1,11 +1,14 @@
-#.cpanel.yml
+# ** Rename this file ".cpanel.yml", replace <userName>, and uncomment lines 5 thru 13
+#    to directly push to cpanel from local dev env.
+#
+# ** Else, just pull from cpanel Git version control page in user account
 #---
 #deployment:
 #  tasks:
-#   - export DEPLOYPATH=/home/snagle1/public_html/
-#    - /bin/cp ./index.html $DEPLOYPATH
+#   - export DEPLOYPATH=/home/<userName>/public_html/
+#   - /bin/cp ./index.html $DEPLOYPATH
 #   - /bin/cp -R ./html $DEPLOYPATH
-#    - /bin/cp -R ./css $DEPLOYPATH
-#    - /bin/cp -R ./img $DEPLOYPATH
-#    - /bin/cp -R ./js $DEPLOYPATH
+#   - /bin/cp -R ./css $DEPLOYPATH
+#   - /bin/cp -R ./img $DEPLOYPATH
+#   - /bin/cp -R ./js $DEPLOYPATH
 #https://docs.cpanel.net/knowledge-base/web-services/guide-to-git-deployment/#overview
