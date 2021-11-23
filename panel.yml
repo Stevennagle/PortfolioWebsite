@@ -3,9 +3,9 @@
 #deployment:
 #  tasks:
 #   - export DEPLOYPATH=/home/snagle1/public_html/
-#    - /bin/cp ./dist/index.html $DEPLOYPATH
-#   - /bin/cp -R ./dist/html $DEPLOYPATH
-#    - /bin/cp -R ./dist/css $DEPLOYPATH
-#    - /bin/cp -R ./dist/img $DEPLOYPATH
-#    - /bin/cp -R ./dist/js $DEPLOYPATH
+#    - /bin/cp ./index.html $DEPLOYPATH
+#   - /bin/cp -R ./html $DEPLOYPATH
+#    - /bin/cp -R ./css $DEPLOYPATH
+#    - /bin/cp -R ./img $DEPLOYPATH
+#    - /bin/cp -R ./js $DEPLOYPATH
 #https://docs.cpanel.net/knowledge-base/web-services/guide-to-git-deployment/#overview
