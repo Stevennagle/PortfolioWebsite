@@ -1,4 +1,2 @@
 # portfolioWebsite
 No current issues.
-
-
