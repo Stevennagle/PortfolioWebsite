@@ -165,11 +165,11 @@ body#bg-img {
   background: rgba(68, 68, 68, 0.9), url(../img/background.jpg);
   background-attachment: fixed;
   background-size: cover; 
+  position: relative;
 }
 
 /*-Optional overlay to make the text pop*/
-/*body#bg-img .overlay {*/
-  .overlay {  
+body#bg-img .overlay {   
   position: absolute;
   top: 0;
   right: 0;
