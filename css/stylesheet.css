@@ -249,16 +249,32 @@ main#home h1 {
   grid-template-columns: repeat(3, 1fr); 
 }
 
+#center-me{
+  text-align: center;
+}
+
+#about-container{
+  /*margin: 10px;*/
+  padding: 1rem 4rem;
+
+}
+
+
 .about-info .bio-image {
   grid-area: bioimage;
-  margin: auto;
+  /*margin: auto;*/
   border-radius: 50%;
-  border: #eece1a 3px solid; 
+  border: #eece1a 3px solid;
+  /*text-align: center;*/
+  margin:5%;
 }
 
 .about-info .bio {
   grid-area: bio;
-  font-size: 1.5rem; 
+  font-size: 1.2rem;
+  padding-left: 1em;
+  margin: 0.5em;
+
 }
 
 .about-info .job-1 {
